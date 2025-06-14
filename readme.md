@@ -40,7 +40,7 @@ systemctl start httpd
 systemctl enable httpd
 echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 ```
-![](./screenshots/ec2.png)
+![](./screenshots/EC2.png)
   
 - after configuring everything try to access it with wer instance ip we should get the following output
 ![](./screenshots/Output.png)
